@@ -1,3 +1,3 @@
 # pomodoro
 
-Pomodoro timer build as part of the FreeCodeCamp front-end curriculum
+Pomodoro timer built as part of the FreeCodeCamp front-end curriculum
