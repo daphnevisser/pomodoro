@@ -1,0 +1,49 @@
+body {
+    background-color: #4B77BE;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    transition: background-color 0.9s ease;
+}
+.pomodoro-clock {
+    position: absolute;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    padding-bottom: 20px;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+h1 {
+    text-transform: uppercase;
+}
+.time {
+    font-size: 8em;
+}
+.btn {
+    padding: 10px 0;
+    margin: 0 20px;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+    text-transform: uppercase;
+    -webkit-transition: border-bottom 0.4s ease;
+    transition: border-bottom 0.4s ease;
+}
+.btn:hover {
+    border-bottom: 2px solid white;
+}
+@media only screen and (max-width: 500px) {
+    body {
+        font-size: 18px;
+    }
+    .time {
+        font-size: 6em;
+    }
+    .pomodoro-clock {
+        width: 320px;
+    }
+    .btn {
+        margin: 0 10px;
+    }
+}
